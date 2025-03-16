@@ -1,0 +1,24 @@
+.card {position: relative;
+    margin: 10px;
+
+    &:hover {
+transform: translateY(-12px);
+transition: 0.3s linear;
+@include respond-to(sm){
+    display: block;
+}
+
+    }
+
+}
+.content {
+position: absolute;
+bottom: 30px;
+display: flex;
+column-gap: 20px;
+padding: 10px 30px;
+font-size: 25px;
+color: black;
+&:hover{
+color:$link-hover2;}
+}

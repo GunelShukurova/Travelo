@@ -1,0 +1,615 @@
+#hero {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include respond-to(xs){
+        width: 100wv;
+        height: 100vh;
+    }
+    article {
+        color: $white;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 160px;
+        padding: 5px;
+        font-family: $font;
+    }
+
+    h4 {
+        padding: 25px;
+    }
+}
+
+.right-arrow .left-arrow {
+
+    position: absolute;
+
+}
+
+
+#info {
+
+    width: 100%;
+    height: 15vh;
+    background-color: #040E27;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ #info {
+
+    @include respond-to(sm){
+      display: block;
+     }
+
+}
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+
+
+    }
+
+    .information {
+        font-size: 30px;
+        border: none;
+
+    }
+
+    li {
+        border: 1px solid rgba(250, 244, 244, 0.379);
+        padding: 15px 30px 15px 10px;
+        border-radius: $radius;
+    }
+}
+
+#popular-destination {
+
+
+    .titles {
+        text-align: center;
+
+        margin: 150px 500px 80px;
+        padding: 20px;
+
+        .title {
+            font-size: 38px;
+            padding: 20px;
+
+
+        }
+
+        .title1 {
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.518);
+        }
+    }
+}
+
+
+
+
+#subscribe {
+    width: 100%;
+    height: 23vh;
+    background-color: #3A485D;
+    margin: 130px 0;
+
+    .mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        padding: 60px 0;
+
+        input {
+            padding: 10px 190px 10px 10px;
+            font-size: 20px;
+            background-color: $white;
+
+        }
+
+        .content3 {
+            color: white;
+            margin-right: 40px;
+
+            h3 {
+
+                font-size: 25px;
+
+            }
+
+            p {
+
+                padding: 20px 0;
+                font-size: 18px;
+            }
+
+        }
+    }
+}
+
+#places {
+
+
+    .city {
+        text-align: center;
+
+        margin: 100px 500px 80px;
+        padding: 20px;
+
+        .city1 {
+            font-size: 45px;
+            padding: 20px;
+
+
+        }
+
+        .city2 {
+            font-size: 25px;
+            color: rgba(0, 0, 0, 0.518);
+        }
+    }
+}
+
+
+
+
+
+
+.card-content {
+    padding: 30px 20px;
+
+    height: 35%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.615);
+
+    h2 {
+        padding: 10px 0;
+        font-size: 25px;
+        color: black;
+    }
+
+    span {
+        font-size: 17px;
+    }
+}
+
+
+.icon3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+
+    .review {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+
+
+    }
+
+    img {
+        height: 20px;
+        width: 80px;
+
+
+    }
+}
+
+.card-top {
+
+
+    position: relative;
+
+    .button {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: $button-bgc2;
+        border-radius: $radius2;
+        padding: 12px 25px;
+        color: $white;
+    }
+}
+
+.card5 {
+
+
+    &:hover {
+        box-shadow: $shadow;
+        transition: 0.2s linear;
+
+        .button {
+            background-color: $link-hover2;
+            transition: 0.2s linear;
+        }
+
+        h2 {
+            color: $link-hover2;
+            transition: 0.2s linear;
+        }
+    }
+}
+
+
+
+#photo {
+
+    width: 100wh;
+    height: 60vh;
+
+    background-image: url("https://wallpapercrafter.com/desktop7/1826372-white-snow-mountain-body-of-water-landscape-reflection.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .content7 {
+        color: $white;
+        font-size: 60px;
+        text-align: center;
+
+        h1 {
+
+            padding: 60px;
+            font-family: $font;
+            font-size: 100px;
+        }
+
+        i {
+            color: $button-bgc2;
+            font-size: 75px;
+        }
+    }
+
+
+}
+
+
+
+#icons  {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10%;
+
+
+
+ .icon100 .icon10{
+
+text-align: center;
+font-size: 40px;
+display: flex;
+flex-direction: column;
+
+row-gap: 20px;
+
+i {
+color: $button-bgc1;
+font-size: 70px;
+
+}
+
+p{
+font-size: 20px;
+color: rgba(0, 0, 0, 0.628);
+padding: 28px;
+}
+ }
+
+}    
+     .icon100 .icon11{
+    
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 20px;
+    
+    i {
+    color: $button-bgc1;
+    font-size: 70px;
+    
+    }
+    
+    p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.628);
+    padding: 30px;
+    
+    }
+     }
+    
+     .icon100 .icon12{
+    
+        text-align: center;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        
+        row-gap: 20px;
+        
+        i {
+        color: $button-bgc1;
+        font-size: 70px;
+        
+        }
+     
+        p{
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.628);
+        padding: 30px;
+        
+        }
+         }
+        
+            #comment  {
+
+            width: 100%;
+            height: 45vh;
+            background-color: #F7FAFD;
+            margin: 130px 0;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+align-items: center;
+
+.poster{
+    width: 8%;
+    height: 30%;
+         background-image: url(https://jacoblund.com/cdn/shop/products/a7e13b3b12484762dfffd9696447ee62.jpg?v=1679492672);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         border-radius: 65%;
+         position: relative;
+   
+       i{
+
+font-size: 20px;
+
+position: absolute;
+right: 5px;
+bottom: -15px;
+background-color: rgb(37, 183, 183);
+padding: 15px;
+border-radius: 40px;
+color: rgba(255, 255, 255, 0.896);
+
+       }
+      
+    }
+
+}
+
+.content10{
+
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 490px;
+
+p{
+    padding: 25px;
+    font-size: 22px;
+
+
+
+}
+span{
+    color: gray;
+    font-size: 20px;
+}
+i{
+    font-size: 50px;
+    color: gray;
+   &:hover{
+cursor: pointer;
+
+
+   }
+}
+ }
+#trips{
+
+    margin: 150px 0;
+
+}
+
+ #trips h1{
+text-align: center;
+font-size: 40px;
+margin: 70px;
+
+
+ }
+ .card-content5 {
+display: flex;
+flex-direction: column;
+h3{
+
+font-size: 25px;
+
+}
+
+span{
+    padding: 10px 0;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.994);
+}
+ }
+
+
+ .card15{
+    margin: 10px;
+    &:hover{
+        transition:$transition;
+        color: $link-hover2;
+    }
+ }
+ .card-top img{
+    border-radius: 7px;
+  
+ }
+
+footer
+
+
+
+
+
+
+#hero1 {
+    width: 100%;
+    height: 30vh;
+
+ 
+}
+
+#hero1 {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://preview.colorlib.com/theme/travelo/img/banner/bradcam4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    article {
+        color: $white;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 130px;
+ 
+        font-family: $font;
+    }
+
+    h4 {
+        padding: 20px;
+    }}
+
+
+#ops-picture .container1{
+
+
+    width: 70%;
+    height: 50vh;
+    background-color: rgba(128, 128, 128, 0.478);
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 110px auto;
+.gray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    color: rgba(0, 0, 0, 0.696);
+
+   h3 {
+font-size: 30px;
+
+   } 
+   p{
+    font-size: 15px;
+   }
+
+   i {
+color: $white;
+    font-size: 30px;
+
+background-color: rgba(0, 0, 0, 0.489);
+padding: 15px 25px;
+border-radius: 50%;
+   }
+}
+}
+
+
+.input10 {
+
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+
+ input {
+    border: 2px solid black;
+width: 100hw;
+height: 20%;
+font-size: 24px;
+padding-left: 10px;
+    padding-top: 4px;
+    border: 2px solid rgba(128, 128, 128, 0.311);
+ }
+
+textarea{
+    width: 40vw;
+    height: 20vh;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.311);
+}
+
+}
+
+#input5 h1{ font-size: 30px;
+    font-weight: 700;
+padding: 30px 0;
+}
+
+
+
+.input15 {
+display: flex;
+flex-direction: column;
+justify-content: start;
+row-gap: 30px;
+padding: 10px;
+margin:  0 120px;
+position: relative;
+i {
+    position: absolute;
+    left: -20px;
+
+    font-size: 20px;
+   color: rgba(0, 0, 0, 0.774);
+}
+span{
+    color: rgba(0, 0, 0, 0.487);
+  
+}
+}

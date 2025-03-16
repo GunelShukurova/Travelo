@@ -1,0 +1,85 @@
+.hero-button {
+    background-color: $button-bgc2;
+padding: 22px 30px;
+border-radius: 10px;
+&:hover{
+    background-color: $link-hover2;
+    transition: 0.3s linear;
+}
+}
+
+#search {
+    background-color: $button-bgc1;
+    padding: 15px 45px;
+    border-radius:$radius;
+    font-size: 20px;
+    &:hover{ background-color:$link-hover1;
+        transition: 0.3s linear;
+        
+    }
+}
+
+.italy1 {
+
+background-color: $button-bgc2;
+border-radius: $radius2;
+font-size: 15px;
+padding: 5px 15px;
+color: white;
+&:hover { background-color: $link-hover2;
+} }
+
+
+.click {
+color: $white;
+background-color: $button-bgc1;
+padding: 15px 38px;
+border-radius: $radius;
+&:hover{
+    background-color: $link-hover1;
+    transition: 0.2s linear;
+}
+
+
+}
+
+.button {
+display: flex;
+align-items: center;
+justify-content: center;
+
+.button5{
+background-color: $button-bgc1;
+padding: 15px 50px;
+color: $white;
+margin: 50px 0 10%;
+border-radius: $radius;
+&:hover{
+background-color: $link-hover1;
+transition: 0.4s;
+
+}
+
+}}
+
+
+
+.button20{
+    
+    width: 25%;
+    height: 20%;
+     border: 2px solid black;
+     background-color: $button-bgc2;
+padding: 10px;
+color: $white;
+
+border-radius: $radius;
+border: none;
+margin: 20px 0;
+&:hover{
+background-color: $link-hover2;
+transition: 0.4s;
+
+}
+ 
+ }
