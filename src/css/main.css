@@ -607,7 +607,7 @@ header .links li a:hover {
   margin: 10px;
 }
 .card15:hover {
-  transition: 0.4s;
+  transition: 0.3s;
   color: rgb(255, 74, 82);
 }
 
